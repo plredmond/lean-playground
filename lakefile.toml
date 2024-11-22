@@ -2,6 +2,10 @@ name = "playground"
 version = "0.1.0"
 defaultTargets = ["playground"]
 
+[[require]]
+name = "batteries"
+scope = "leanprover-community"
+
 [[lean_lib]]
 name = "Playground"
 srcDir = "lib"
