@@ -4,6 +4,7 @@ defaultTargets = ["playground"]
 
 [[lean_lib]]
 name = "Playground"
+srcDir = "lib"
 
 [[lean_exe]]
 name = "playground"
