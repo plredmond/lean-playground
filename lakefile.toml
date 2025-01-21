@@ -5,9 +5,14 @@ defaultTargets = ["playground"]
 
 [leanOptions]
 pp.unicode.fun = true # pretty-prints `fun a ↦ b`
+autoImplicit = false
 
 [[require]]
 name = "batteries"
+scope = "leanprover-community"
+
+[[require]]
+name = "mathlib"
 scope = "leanprover-community"
 
 [[lean_lib]]
